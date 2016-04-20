@@ -1,0 +1,63 @@
+/* Demo */
+
+body {
+    background: #3e50b4;
+    font-family: Lato;
+}
+
+* { padding: 0; margin: 0; }
+.container {
+    width: 100%;
+    margin: auto;
+}
+
+.content {
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 75px;
+    text-align: center;
+    color: #fff;
+    font-size: 25px;
+    font-weight: 200;
+}
+
+.content i.swift-logo {
+    font-size: 250px;
+}
+
+.content p {
+    margin-bottom: 45px;
+}
+
+.content p a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.content p a:hover {
+    text-decoration: underline;
+}
+
+a.btn {
+    padding: 15px 25px;
+    background: #e81d62;
+    border: 1px solid #e81d62;
+    color: #fff;
+    font-size: 20px;
+    text-decoration: none;
+    border-radius: 50px;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.1);
+    transition: all .2s cubic-bezier(0.25, 0.1, 0.25, 1);
+}
+
+a.btn:hover {
+    background: #ff0e60;
+    border: 1px solid #ff0e60;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+    transition: all .2s cubic-bezier(0.25, 0.1, 0.25, 1);
+}
+
+a.btn i.ion-social-github {
+    margin-right: 10px;
+}
