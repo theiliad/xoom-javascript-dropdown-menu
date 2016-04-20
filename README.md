@@ -4,4 +4,4 @@ XOOM! Dropdown is a lightweight and ultra-fast dropdown menu, using GPU-accelera
 
 <br />
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/oMqoNZ0hv70" frameborder="0" allowfullscreen></iframe>
+<a href="https://www.youtube.com/watch?v=oMqoNZ0hv70&feature=youtu.be" target="_blank"><img src="http://img.youtube.com/vi/oMqoNZ0hv70/maxresdefault.jpg" width="600" /></a>
