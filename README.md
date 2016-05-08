@@ -1,4 +1,5 @@
-# XOOM!
+# XOOM! <a href="http://theiliad.github.io/vibe-javascript-modal/"><img src="https://cdn.rawgit.com/theiliad/pulse-javascript-speeddial/master/img/demo.svg" /></a> <img src="https://cdn.rawgit.com/theiliad/pulse-javascript-speeddial/master/img/version.svg" />
+
 XOOM! Dropdown is a lightweight and ultra-fast dropdown menu, using GPU-accelerated animations!
 <br /><b>(Pure Javascript + CSS3 + GSAP)</b>
 
