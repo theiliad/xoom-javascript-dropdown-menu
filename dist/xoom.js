@@ -6,7 +6,7 @@ var dropDown = document.querySelectorAll('.dropDown');
 var dropDownArray = Array.prototype.slice.call(dropDown,0);
 
 dropDownArray.forEach(function(el){
-    var div = el.querySelector("div");
+    var div = el.querySelector("div.nav-box");
     el.onmouseover=function(){
         TweenMax.to(div, .12, {
             opacity: 1,
