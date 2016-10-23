@@ -21,9 +21,16 @@ ol, ul {
 }
 
 #navbar li.nav-item i.dropDown-arrow {
+    display: inline-block;
     margin-right: 0;
     margin-left: 5px;
     vertical-align: middle;
+    transition: all .2s cubic-bezier(0.25, 0.1, 0.25, 1);
+}
+
+#navbar li.nav-item:hover i.dropDown-arrow {
+    transform: rotate(180deg);
+    transition: all .2s cubic-bezier(0.25, 0.1, 0.25, 1);
 }
 
 #navbar li.nav-item a {
@@ -90,7 +97,7 @@ ol, ul {
     padding: 0;
 }
 
-#navbar li.dropDown div ul{
+#navbar li.dropDown div ul {
     margin: 0;
     padding: 0;
     width: auto;
