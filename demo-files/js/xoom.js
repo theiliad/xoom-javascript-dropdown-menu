@@ -9,6 +9,18 @@ dropDownArray.forEach(function(el){
     var div = el.querySelector("div.nav-box");
     
     el.onmouseover=function(){
+        var documentElement = document.documentElement,
+        bodyElement = document.getElementsByTagName('body')[0],
+        x = window.innerWidth  || documentElement.clientWidth  || bodyElement.clientWidth,
+        y = window.innerHeight || documentElement.clientHeight || bodyElement.clientHeight;
+
+        var rect = el.getBoundingClientRect();
+        
+        if ((x - rect.left) < div.scrollWidth && rect.right >= div.scrollWidth) {            
+            div.style.left = (-1) * rect.left + 10 + "px";
+            div.classList.add('nav-box-reversed');
+        }
+        
         TweenMax.to(div, .12, {
             opacity: 1,
             top: 59,

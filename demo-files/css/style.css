@@ -81,6 +81,11 @@ ol, ul {
 	border-width: 7px;
 }
 
+#navbar li.dropDown div.nav-box-reversed:after {
+	left: auto;
+    right: 30px;
+}
+
 #navbar li.dropDown-dark div {
     background: #000;
     color: #fff;
