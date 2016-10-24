@@ -54,7 +54,7 @@ ol, ul {
 }
 
 #navbar li.dropDown div {
-    position:absolute;
+    position: absolute;
     opacity: 0;
     top: 40px;
     left: 40px;
@@ -64,6 +64,7 @@ ol, ul {
     border-radius: 10px;
     visibility: hidden;
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.12);
+    z-index: 99;
 }
 
 #navbar li.dropDown div:after {
